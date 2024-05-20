@@ -1,4 +1,4 @@
-import img from './assets/images/avatar-jessica.jpeg'
+import img from '../assets/images/avatar-jessica.jpeg'
 
 export const AvatarImage =()=>{
     return(
