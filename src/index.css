@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+ 
+  @font-face {
+    font-family: 'InterBold';
+   
+    src: url('./assets/fonts/static/Inter-Bold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'InterRegular';
+   
+    src: url('./assets/fonts/static/Inter-Regular.ttf') format('truetype');
+  }
+ 
+  :root{
+    /*Primary*/
+    --Green:75 94 57;
+    /* Netral*/
+    --blacky:2 3 62;
+    --White: 0 0 100;
+    --Grey: 0 0 20;
+    --DarkGrey: 0 0 12;
+    --OffBlack: 0 0 8;
+  }
+}
