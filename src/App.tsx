@@ -6,7 +6,7 @@ function App() {
   return (
     <main className='bg-OffBlack w-[100dvw] h-[100dvh] 
     px-5 py-10
-    flex justify-center items-center'>
+    flex justify-center items-center'  >
       <Profile/>
     </main>
   )
@@ -63,7 +63,8 @@ return(
 }
 export const Button = ({title}:{title:string}) =>{
   return(
-    <button className='py-3 rounded-lg font-InterBold text-[1rem] text-White w-full h-fit bg-Grey hover:bg-Greenhover:text-black transition-all duration-300 '>
+    <button className='py-3 rounded-lg font-InterBold text-[1rem] text-White w-full h-fit bg-Grey 
+    hover:bg-Green hover:text-black transition-all duration-300 '>
           {title}
     </button>
   )
